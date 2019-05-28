@@ -1,23 +1,50 @@
-$("#find-laugh").on("click", function(event) {
-
-    // Preventing the submit button from trying to submit the form
-    // We're optionally using a form so the user may hit Enter to search instead of clicking the button
+$("#hallsCrossing").on("click", function halls(event) {
     event.preventDefault();
-    var laugh = $("#laugh-input").val();
+    var button="5537013"
 
-    // Here we grab the text from the input box
-    // var movie = $("#laugh-input").val();
+var APIKey = "1d70a30270f720d8e73ae4fb21b0a24b";
 
-    // Here we construct our URL
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q="+ laugh + "&api_key=1UpFUCsNhpc1IK7JBMtLDBOu3OqZ7zPP";
-
-    // Write code between the dashes below to hit the queryURL with $ajax, then take the response data
-    $.ajax({
-  url: queryURL,
-  method: "GET"
-}).then(function(response) {
-console.log(queryURL);
+var queryURL = "https://api.openweathermap.org/data/2.5/weather?id="+button+"&APPID=" + APIKey;
 
 
-});
-});
+
+$.ajax({
+    url: queryURL,
+    method: "GET"
+  }).then(function(response) {
+  console.log(queryURL);
+  console.log(response);
+  });
+ 
+   
+
+    // This line grabs the input from the textbox
+    
+
+    // Adding the movie from the textbox to our array
+    
+
+    // Calling renderButtons which handles the processing of our movie array
+    
+  });
+//   movies.push(movie);
+//     console.log(movies);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// "id": 5537013,
+
+
