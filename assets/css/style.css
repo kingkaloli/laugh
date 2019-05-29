@@ -1,0 +1,74 @@
+.jumbotron {
+
+    background-color: #A6D4F2;
+}
+#ClayHillsCrossing {
+
+    background-color: #E7B981;
+    color: black;
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+
+
+}
+#desertUt {
+
+    background-color: #FFDFA8;
+    color: black;
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+}
+#truth {
+
+    background-color: #E7B981;
+    color: black;
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+
+}
+#dove {
+
+    background-color: #FFDFA8;
+    color: black;
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+}
+#windslow{
+
+    background-color: #E7B981;
+    color: black;
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+
+}
+h1 {
+
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+    color: #CC5C5C;
+
+}
+h2 {
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+
+}
+h4 {
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+
+}
+
+text {
+
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+}
+
+.btn-secondary{
+    background-color: #A6D4F2;
+  
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+    
+}
+a {
+    color:black;
+}
+.image {
+    padding: 8px;
+}
