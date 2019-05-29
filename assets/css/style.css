@@ -43,7 +43,7 @@ h1 {
 
 p {
     font-family: 'Special Elite', Arial, Helvetica, sans-serif;
-    color: #CC5C5C;
+    color: black;
 
 }
 h2 {
@@ -54,6 +54,12 @@ h4 {
     font-family: 'Special Elite', Arial, Helvetica, sans-serif;
 
 }
+h5 {
+    font-family: 'Special Elite', Arial, Helvetica, sans-serif;
+    color: #CC5C5C;
+
+}
+
 
 text {
 
@@ -71,4 +77,12 @@ a {
 }
 .image {
     padding: 8px;
+}
+
+nav.navbar.fixed-bottom.navbar-light.bg-light {
+    Color: #A6D4F2;
+    Background: #FFDFA8 !important;
+    opacity: 0.5;
+    
+    
 }
